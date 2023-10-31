@@ -1,0 +1,53 @@
+body {
+    font-size: 100%;
+    background: #FFFF;
+    background-size: 100%;
+}
+/* Cabecalho */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(45deg, #7a33b1 50%,  #60238F 75%);
+    border-bottom: 3px inset #1d0a2c;
+    padding: 0.6rem 2.2rem 0.5rem 2.2rem;
+}
+
+#header-titulo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+header h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFFF;
+}
+
+nav a {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5rem;
+    color: #FFFF;
+}
+
+/* home-titulo */
+#home-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background: linear-gradient(90deg, #532279 60%,  #3E165C 80%); 
+
+    min-height: 50vh;
+}
+
+#home-titulo h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 4rem;
+    font-weight: 100;
+    color: #FFFF;
+}
