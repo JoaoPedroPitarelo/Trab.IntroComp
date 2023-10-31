@@ -1,0 +1,24 @@
+/* Fonte Ubuntu e ubuntu condesend */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+/* Variaveis */
+:root {
+    --fonte-corpo: 'Ubuntu Condensed', sans-serif;
+    --fonte-destaque: 'Ubuntu', sans-serif;
+}
+
+
+
+/* Configuracoes gerais da pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+};
+
+html {
+    height: 100%;
+    background-color: #FFFFFF;  
+    background-size: 100%;
+}
