@@ -32,6 +32,12 @@ nav a {
     color: #FFFF;
 }
 
+nav a:hover {
+    cursor: pointer;
+    color: #24063C;
+    transition: 0.2s;
+}
+
 /* home-titulo */
 #home-titulo {
     display: flex;
