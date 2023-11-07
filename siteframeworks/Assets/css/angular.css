@@ -1,0 +1,114 @@
+/* Estilos referentes a página Angular do site */
+
+*{
+    font-family: var(--fonte-destaque);
+}
+
+:root {
+    --text-color-default: #FFFFFF;
+    --angular-primary-color: #c3002f;
+    --angular-secondary-color: #1259b4;
+    --angular-terciary-color: #303030;
+}
+
+.header__angular {
+    background-color: var(--angular-secondary-color);
+    border: none;
+}
+
+.section__about-angular {
+    min-height: 80vh;
+    background-color: var(--angular-secondary-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+
+.section__angular-timeline {
+    background-color: var(--angular-terciary-color);
+    min-height: 80vh;
+}
+
+.text-p, .content-text, .section__about-angular__principal-text {
+    font-weight: 500;
+    color: var(--angular-terciary-color);
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    max-width: 50vw;
+    text-align: justify;
+}
+
+.section__about-angular__principal-text {
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: start;
+
+}
+
+.angular-information {
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    color: var(--text-color-default);
+
+    padding: 1em;
+}
+
+.angular-table {
+   text-align: justify;
+   color: var(--angular-terciary-color);
+   border-collapse: collapse;
+
+   background-color: var(--angular-primary-color);
+}
+
+.angular-table-version__width {
+    width: 10%;
+}
+
+.angular-table-date__width {
+    width: 30%;
+}
+
+.angular-table-description__width {
+    width: 70%;
+}
+
+.table-angular {
+    padding: 2em;
+}
+
+.angular-table td {
+    padding: 8px 5px;
+    border: none;
+}
+
+.angular-table th {
+    padding: 6px 0;
+    border: none;
+}
+
+.angular-table tr:nth-child(odd) {
+    background-color: var(--angular-primary-color); /* Cor de fundo para linhas ímpares */
+    font-weight: 600;
+}
+  
+.angular-table tr:nth-child(even) {
+    background-color: var(--angular-terciary-color); /* Cor de fundo para linhas pares */
+    color: var(--text-color-default);
+}
+
+.angular-table__thead {
+    color: var(--text-color-default);
+    text-align: center;
+    padding: 2em;
+
+    border-radius: 25px;
+}
+
+.about-angular__angular-logo img {
+    max-width: 100%;
+}
+

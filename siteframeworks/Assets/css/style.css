@@ -9,7 +9,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: #60238F;
-    border-bottom: 3px inset #1d0a2c;
     padding: 0.6rem 2.2rem 0.5rem 2.2rem;
 }
 
