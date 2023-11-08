@@ -1,5 +1,6 @@
 /* Estilos referentes a página Angular do site */
 
+/* Definindo atributos globais */
 *{
     font-family: var(--fonte-destaque);
 }
@@ -11,20 +12,26 @@
     --angular-terciary-color: #303030;
 }
 
+/* Estilo em cascada do header */
 .header__angular {
     background-color: var(--angular-secondary-color);
     border: none;
 }
 
-.section__about-angular {
-    min-height: 80vh;
+/* Estilos das sections */
+.section__about-angular, .section__angularjs{
     background-color: var(--angular-secondary-color);
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5em;
+    justify-content: center ;
+    padding: 2.5em 0;
+}
+
+.angular-text {
+    font-size: 1.4em;
 }
 
 .section__angular-timeline {
@@ -35,8 +42,8 @@
 .text-p, .content-text, .section__about-angular__principal-text {
     font-weight: 500;
     color: var(--text-color-default);
-    padding: 0.3rem 1rem 0.3rem 1rem;
-    max-width: 50vw;
+    padding: 1rem 1rem 0.3rem 1rem;
+    max-width: 60vw;
     text-align: justify;
 }
 
@@ -45,6 +52,11 @@
     font-size: 2.5em;
     text-align: start;
 
+}
+
+.content-text {
+    margin: 0 5em;
+    padding: 0;
 }
 
 .angular-information {
@@ -56,6 +68,16 @@
     padding: 1em;
 }
 
+.about-angular__angular-logo img {
+    max-width: 100%;
+}
+
+.about-angular__angularjs img {
+    max-width: 75%;
+}
+
+/* Inicio dos estilos referente a tabela */
+
 .angular-table {
    text-align: justify;
    color: var(--angular-terciary-color);
@@ -65,23 +87,23 @@
 }
 
 .angular-table-version__width {
-    width: 10%;
+    width: 5%;
 }
 
 .angular-table-date__width {
-    width: 30%;
+    width: 15%;
 }
 
 .angular-table-description__width {
-    width: 70%;
+    width: 50%;
 }
 
 .table-angular {
-    padding: 2em;
+    padding: 0 10em;
 }
 
 .angular-table td {
-    padding: 8px 5px;
+    padding: 1.5em 1em;
     border: none;
 }
 
@@ -92,6 +114,7 @@
 
 .angular-table tr:nth-child(odd) {
     background-color: var(--angular-primary-color); /* Cor de fundo para linhas ímpares */
+    color: var(--text-color-default);
     font-weight: 600;
 }
   
@@ -104,11 +127,6 @@
     color: var(--text-color-default);
     text-align: center;
     padding: 2em;
-
-    border-radius: 25px;
 }
 
-.about-angular__angular-logo img {
-    max-width: 100%;
-}
 

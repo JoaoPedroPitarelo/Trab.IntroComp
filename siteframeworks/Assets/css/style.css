@@ -1,6 +1,6 @@
 body {
     font-size: 100%;
-    background: #FFFF;
+    background: #60238F;
     background-size: 100%;
 }
 /* Cabecalho */
@@ -8,7 +8,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #60238F;
+    background-color: #3E165C;
     padding: 0.6rem 2.2rem 0.5rem 2.2rem;
 }
 
@@ -47,7 +47,7 @@ nav a:hover {
     padding: 2rem 2rem 2rem 2rem;
     background-color: #3E165C;
 
-    min-height: 50vh;
+    min-height: 25vh;
 }
 
 #home-titulo h1 {
@@ -65,14 +65,11 @@ nav a:hover {
 
 /* Frameworks, o que são?*/
 #section-home_frameworksoquesao h2 {
-    background-color: #3E165C;
     color: #FFFF;
     font-family: var(--fonte-destaque);
     font-weight: 600;
     padding: 0.3rem 1rem 0.3rem 1rem;
-    
-    border-bottom: 3px inset #1d0a2c;
-    border-radius: 1rem 1rem 0 0;
+
 }
 
 
@@ -81,6 +78,7 @@ nav a:hover {
     background-color: #60238F;
     font-size: 1.3rem;
     color: #FFFF;
+    text-align: justify;
 
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 0 0 1rem 1rem;
@@ -91,15 +89,14 @@ nav a:hover {
     margin: 1rem 1rem 3rem 3rem;    
 }
 
+
 /*Biblioteca frameworks*/
 #section-home_bibliotecaframeworks h2 {
-    background-color: #3E165C;
     color: #FFFF;
     font-family: var(--fonte-destaque);
     font-weight: 600;
     padding: 0.3rem 1rem 0.3rem 1rem;
     
-    border-bottom: 3px inset #1d0a2c;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -108,13 +105,13 @@ nav a:hover {
     background-color: #60238F;
     font-size: 1.3rem;
     color: #FFFF;
+    text-align: justify;
 
-    padding: 1rem 1rem 1rem 1rem;
-    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
 }
 
 #section-home_bibliotecaframeworks {
-    max-width: 90%;
+    max-width: 50%;
     margin: 1rem 1rem 3.5rem 3rem;
 }
     
