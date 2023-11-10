@@ -1,0 +1,69 @@
+/* Estilos referentes a página Angular do site */
+
+/* Definindo atributos globais */
+*{
+    font-family: var(--fonte-destaque);
+}
+
+html, body {
+    background-color: white;
+}
+
+:root {
+    --text-color-default: #FFFFFF;
+    --react-primary-color: #0f607a;
+    --react-secondary-color: #23272F;
+    --react-terciary-color: #1B1D24;
+}
+
+
+/* Estilos referentes ao cabeçalho da página ReactJs */
+.header__react {
+    background-color: var(--react-terciary-color);
+}
+
+/* Estilos referente à primeira section da página */
+.section__introducao-react {
+    background-color: var(--react-secondary-color);
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+.section__como-usar-react {
+    background-color: var(--react-primary-color);
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+.text-p, .introducao-react__content-text {
+    font-weight: 500;
+    color: var(--text-color-default);
+    max-width: 50vw;
+}
+
+.react-text {
+    font-size: 1.4em;
+    margin: 1em 0;
+} 
+
+.introducao-react__content-text > h1 {
+    font-size: 2.5em;
+    max-width: 50vw;
+}
+
+.virtualdom-image {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.virtualdom {
+    border-radius: 15px;
+}

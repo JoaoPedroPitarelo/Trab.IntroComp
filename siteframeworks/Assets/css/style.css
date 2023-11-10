@@ -292,3 +292,7 @@ footer {
     transition: 0.5s;
     border: 1px solid;
 }
+
+.titulo-principal {
+    text-align: center;
+}

@@ -5,6 +5,10 @@
     font-family: var(--fonte-destaque);
 }
 
+html {
+    background-color: white;
+}
+
 :root {
     --text-color-default: #FFFFFF;
     --angular-primary-color: #c3002f;
