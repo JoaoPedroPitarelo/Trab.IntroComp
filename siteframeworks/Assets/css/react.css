@@ -1,4 +1,4 @@
-/* Estilos referentes a página Angular do site */
+/* Estilos referentes a página React do site */
 
 /* Definindo atributos globais */
 *{
@@ -17,9 +17,16 @@ html, body {
 }
 
 
-/* Estilos referentes ao cabeçalho da página ReactJs */
-.header__react {
+.header__react, footer{
     background-color: var(--react-terciary-color);
+}
+
+footer {
+    min-height: 10vh;
+}
+
+.link-proximo:hover {
+    color: var(--react-primary-color);
 }
 
 /* Estilos referente à primeira section da página */
@@ -45,6 +52,7 @@ html, body {
 
 .text-p, .introducao-react__content-text {
     font-weight: 500;
+    text-align: justify;
     color: var(--text-color-default);
     max-width: 50vw;
 }
@@ -64,6 +72,30 @@ html, body {
     border-radius: 20px;
 }
 
+.react-image {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.imagem-react{
+    margin: 0 auto;
+}
+
+.imagem-react > img{
+    margin: 2em;
+    width: 100%;
+    height: 100%;
+}
+
 .virtualdom {
     border-radius: 15px;
+}
+
+.lista-react {
+    list-style: circle;
+}
+
+
+.lista-react > li {
+    margin: 1em;
 }

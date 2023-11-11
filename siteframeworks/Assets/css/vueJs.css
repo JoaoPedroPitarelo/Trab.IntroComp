@@ -1,0 +1,134 @@
+/* Estilos referentes a página VueJS do site */
+:root {
+    --text-color-default: #FFFFFF;
+    --vue-primary-color: #42b983;
+    --vue-secondary-color: #FFFFFF;
+    --vue-terciary-color: #34495e;
+}
+
+/* Definindo atributos globais */
+*{
+    font-family: var(--fonte-destaque);
+}
+
+html, body{
+    background-color:var(--vue-terciary-color);
+}
+
+main {
+    background-color: var(--vue-secondary-color);
+    color: var(--vue-terciary-color);
+}
+
+.header-vue, footer {
+    background-color: var(--vue-primary-color);
+}
+
+footer {
+    min-height: 10vh;
+}
+
+.vue-caracteristica, .vue-apresentacao {
+    min-height: 80vh;
+}
+
+.vue-apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-text {
+    max-width: 60vw;
+}
+
+.content-text {
+    padding : 5em;
+}
+
+.content-text > h1 {
+    font-size: 3em;
+    
+}
+
+.content-text > p {
+    margin-top: 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    
+}
+
+.image {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.vue-image{
+   margin: 10em 2em;
+}
+
+.vue-image > img{
+    margin: 2em;
+    width: 100%;
+    height: 100%;
+}
+
+.vue-caracteristica {
+    background-color: var(--vue-terciary-color);
+    color: var(--text-color-default);
+}
+
+.vue-caracteristica > .content-text {
+    text-align: center;
+    max-width: 100vw;
+}
+
+.vue-caracteristica > .content-text > h2 {
+    font-size: 3em;
+    padding: 1em 0 0 0;
+}
+
+
+.container-figures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5em 10em;
+}
+
+.container-figures > .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-figures > .box > h3 {
+    font-size: 1.5em;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.context-text-figure {
+    padding: 0;
+}
+
+.container-figures > .box > p {
+    font-size: 1em;
+}
+
+.container-figures > .box > .figure {
+    position: relative;
+    background-color: var(--vue-primary-color);
+    width: 20em;
+    height: 20em;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.figure:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
