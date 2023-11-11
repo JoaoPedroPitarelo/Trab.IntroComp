@@ -9,13 +9,6 @@ html, body {
     background-color: white;
 }
 
-:root {
-    --text-color-default: #FFFFFF;
-    --react-primary-color: #0f607a;
-    --react-secondary-color: #23272F;
-    --react-terciary-color: #1B1D24;
-}
-
 
 .header__react, footer{
     background-color: var(--react-terciary-color);
@@ -98,4 +91,30 @@ footer {
 
 .lista-react > li {
     margin: 1em;
+}
+
+/* BUTTON FOOTER */
+.voltaraotopo {
+    background-color: #23272F;
+    border: none;
+    border-radius: 2rem 2rem 2rem 2rem;
+    min-width: 15%;
+    text-align: center;
+    padding: 1rem;
+
+    color: #FFFF;
+    font-family: var(--fonte-destaque);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.voltaraotopo:hover {
+    cursor: pointer;
+    transform: translateY(-.3rem);
+    transition: 0.5s;
+    border: 1px solid;
+}
+
+.titulo-principal {
+    text-align: center;
 }

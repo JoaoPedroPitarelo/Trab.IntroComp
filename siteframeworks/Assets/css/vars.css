@@ -5,10 +5,25 @@
 :root {
     --fonte-corpo: 'Ubuntu Condensed', sans-serif;
     --fonte-destaque: 'Ubuntu', sans-serif;
+
+
+    --text-color-default: #FFFFFF;
+    --react-primary-color: #0f607a;
+    --react-secondary-color: #23272F;
+    --react-terciary-color: #1B1D24;
+
+    --angular-primary-color: #c3002f;
+    --angular-secondary-color: #1259b4;
+    --angular-terciary-color: #303030;
+
+    --vue-primary-color: #42b983;
+    --vue-secondary-color: #FFFFFF;
+    --vue-terciary-color: #34495e;
 }
 
 /* Configuracoes gerais da pagina */
 * {
+    font-family: var(--fonte-destaque);
     margin: 0;
     padding: 0;
     box-sizing: border-box;

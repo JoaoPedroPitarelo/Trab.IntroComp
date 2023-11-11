@@ -9,13 +9,6 @@ html {
     background-color: white;
 }
 
-:root {
-    --text-color-default: #FFFFFF;
-    --angular-primary-color: #c3002f;
-    --angular-secondary-color: #1259b4;
-    --angular-terciary-color: #303030;
-}
-
 /* Estilo em cascada do header */
 .header__angular {
     background-color: var(--angular-secondary-color);
@@ -133,4 +126,39 @@ html {
     padding: 2em;
 }
 
+/* FOOTER */
+footer {
+    background-color: #1259b4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+    min-height: 7vh;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+/* BUTTON FOOTER */
+.voltaraotopo {
+    background-color: #303030;
+    border: none;
+    border-radius: 2rem 2rem 2rem 2rem;
+    min-width: 15%;
+    text-align: center;
+    padding: 1rem;
+
+    color: #FFFF;
+    font-family: var(--fonte-destaque);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.voltaraotopo:hover {
+    cursor: pointer;
+    transform: translateY(-.3rem);
+    transition: 0.5s;
+    border: 1px solid;
+}
+
+.titulo-principal {
+    text-align: center;
+}   

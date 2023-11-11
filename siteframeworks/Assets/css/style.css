@@ -29,6 +29,7 @@ nav a {
     font-family: var(--fonte-destaque);
     font-size: 1.5rem;
     color: #FFFF;
+    padding: 0.5rem;
 }
 
 nav a:hover {
@@ -69,6 +70,7 @@ nav a:hover {
     font-family: var(--fonte-destaque);
     font-weight: 600;
     padding: 0.3rem 1rem 0.3rem 1rem;
+    font-size: 2.5em;
 
 }
 
@@ -76,7 +78,7 @@ nav a:hover {
 #section-home_frameworksoquesao p {
     font-family: var(--fonte-destaque);
     background-color: #60238F;
-    font-size: 1.3rem;
+    font-size: 1.4em;
     color: #FFFF;
     text-align: justify;
 
@@ -95,6 +97,7 @@ nav a:hover {
     color: #FFFF;
     font-family: var(--fonte-destaque);
     font-weight: 600;
+    font-size: 2.5em;
     padding: 0.3rem 1rem 0.3rem 1rem;
     
     border-radius: 1rem 1rem 0 0;
@@ -103,7 +106,7 @@ nav a:hover {
 #section-home_bibliotecaframeworks p {
     font-family: var(--fonte-destaque);
     background-color: #60238F;
-    font-size: 1.3rem;
+    font-size: 1.4em;
     color: #FFFF;
     text-align: justify;
 

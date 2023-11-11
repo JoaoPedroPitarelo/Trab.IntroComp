@@ -1,16 +1,6 @@
 /* Estilos referentes a página VueJS do site */
-:root {
-    --text-color-default: #FFFFFF;
-    --vue-primary-color: #42b983;
-    --vue-secondary-color: #FFFFFF;
-    --vue-terciary-color: #34495e;
-}
 
 /* Definindo atributos globais */
-*{
-    font-family: var(--fonte-destaque);
-}
-
 html, body{
     background-color:var(--vue-terciary-color);
 }
@@ -24,9 +14,41 @@ main {
     background-color: var(--vue-primary-color);
 }
 
+
 footer {
-    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    min-height: 7vh;
+    padding: 1rem 3rem 1rem 3rem;
 }
+
+.voltaraotopo {
+    background-color: #34495e;
+    border: none;
+    border-radius: 2rem 2rem 2rem 2rem;
+    min-width: 15%;
+    text-align: center;
+    padding: 1rem;
+
+    color: #FFFF;
+    font-family: var(--fonte-destaque);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.voltaraotopo:hover {
+    cursor: pointer;
+    transform: translateY(-.3rem);
+    transition: 0.5s;
+    border: 1px solid;
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
 
 .vue-caracteristica, .vue-apresentacao {
     min-height: 80vh;
