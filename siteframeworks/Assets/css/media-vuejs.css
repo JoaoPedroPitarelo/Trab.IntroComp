@@ -20,17 +20,11 @@ footer {
     align-items: center;
 }
 
-.container-figures > .box > p {
-    font-size: 1.1em;
-    text-align: center;
-    max-width: 100%;
-}
-
 .container-figures > .box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 .container-figures > .box > .figure {
@@ -82,12 +76,6 @@ footer {
 
 @media screen and (max-width: 550px)  {
 
-    .container-figures > .box > .text > p {
-       min-width: 100%;
-       margin: 0;
-       padding: 0;
-    }
-
     .vue-image {
         margin: 0 auto;
     }
@@ -121,6 +109,10 @@ footer {
         font-size: 1em;
         display: flex;
         flex-direction: row;
+    }
+
+    .container-figures > .box > .text > p {
+        min-width: 80vw;
     }
 
 }

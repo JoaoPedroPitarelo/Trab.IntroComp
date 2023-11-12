@@ -132,11 +132,11 @@ footer {
 }
 
 .container-figures > .box > .text > p {
-    margin: 1em 0;
+    min-width: 100%;
 }
 
-.context-text-figure {
-    padding: 0;
+.container-figures > .box > .text {
+    margin: 1em 0;
 }
 
 .container-figures > .box > p {
