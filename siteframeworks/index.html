@@ -11,6 +11,7 @@
     <!-- CSS Links ----------------------------------------------------------------------------->
     <link rel="stylesheet" href="./Assets/css/vars.css">  <!-- Variáveis CSS -->
     <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/media-index.css">
    
     <!-- Links Externos ------------------------------------------------------------------------>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- BOXICONS -->
@@ -23,7 +24,7 @@
 
         <div id="header-titulo">
             <h2>FrameWorks Web</h2>
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="20 5 50 60" fill="none">
+            <svg id="svg-logo" xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="20 5 50 60" fill="none">
                 <line x1="16.5" y1="0" x2="16.5" y2="59" stroke="black" stroke-width="6"/>
                 <line x1="1.5" y1="16.5" x2="45" y2="16.5" stroke="white" stroke-width="6"/>
                 <line x1="41.5" y1="17" x2="41.5" y2="69" stroke="white" stroke-width="6"/>
@@ -32,7 +33,7 @@
         </div>
         
         <nav>
-            <a href="react.html" class="link-proximo">PRÓXIMO</a>
+            <a href="react.html" class="link-proximo" id="link-proximo">PRÓXIMO</a>
         </nav>
 
     </header>
@@ -41,7 +42,7 @@
     <main>
         <!-- Titulo -->
         <div id="home-titulo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="5 5 50 60" fill="none">
+            <svg id="svg-1" xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="5 5 50 60" fill="none">
                 <line x1="16.5" y1="0" x2="16.5" y2="57.5" stroke="black" stroke-width="4"/>
                 <line x1="1.5" y1="16.5" x2="43.5" y2="16.5" stroke="white" stroke-width="4"/>
                 <line x1="41.5" y1="17" x2="41.5" y2="69" stroke="white" stroke-width="4"/>
@@ -51,7 +52,7 @@
             <h1 class="titulo-principal">Explorando o mundo dos FrameWorks e<br>Bibliotecas Front-end</h1>
             
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="5 5 50 60" fill="none">
+            <svg id="svg-2"xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="5 5 50 60" fill="none">
                 <line x1="16.5" y1="0" x2="16.5" y2="57.5" stroke="black" stroke-width="4"/>
                 <line x1="1.5" y1="16.5" x2="43.5" y2="16.5" stroke="white" stroke-width="4"/>
                 <line x1="41.5" y1="17" x2="41.5" y2="69" stroke="white" stroke-width="4"/>
@@ -82,7 +83,7 @@
         <section class="section-frameworks">
 
             <div id="section-frameworks_cabecalho">
-                <h3>Principais Frameworks front-end do mercado (Clique nas logos para saber mais)</h3>
+                <h3>Principais Frameworks front-end do mercado <br>(Clique para saber mais)</h3>
             </div>
 
             <div id="section-frameworks_linkframeworks">
@@ -144,6 +145,5 @@
 
         <a class="voltaraotopo" href="#cabecalho" type="button" class="footer-button">Voltar ao topo</a>
     </footer>
-
 </body>
 </html>

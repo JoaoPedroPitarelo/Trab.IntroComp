@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+
+#todososdireitos {
+    max-width: 100%;
+    text-align: center;
+}
+    
+nav a {
+    display: none;
+}
+
+.voltaraotopo {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+}
+
+.container-figures {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 1em 2em 25em ;
+    min-height: 45rem;
+}
+
+.container-figures > .box > p {
+    font-size: 1.1em;
+    text-align: center;
+    max-width: 100em    ;
+}
+
+
+
+
+}

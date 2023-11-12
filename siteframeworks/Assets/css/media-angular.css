@@ -1,0 +1,57 @@
+@media screen and (max-width: 850px) {
+
+.header__angular {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__angular h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: 600;
+    font-size: 2rem;
+    color: #FFFF;
+}
+
+nav a {
+    display: none;
+}
+
+.section__angularjs {
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-angular__angularjs {
+    padding: 1em 1em 1em 9em;
+}
+
+.section__about-angular {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    justify-content: center;
+}
+
+#todososdireitos {
+    max-width: 100%;
+}
+
+.voltaraotopo {
+    display: none;
+}
+}
+
+@media screen and (max-width: 1200px) {
+
+#todososdireitos {
+    max-width: 30%;
+}
+
+}

@@ -1,0 +1,132 @@
+@media screen and (max-width: 800px) {
+
+#todososdireitos  {
+    min-width: 50%;
+}
+    
+#section-frameworks_linkframeworks {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+}
+}
+
+@media screen and (max-width: 1100px) {
+
+#todososdireitos {
+    max-width: 30%;
+}
+
+#section-frameworks_linkframeworks {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #FFFF;
+}
+
+nav a {
+    display: none;
+}
+
+#home-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    background-color: #3E165C;
+
+    min-height: 25vh;
+}
+
+#home-titulo svg {
+    display: none;
+}
+
+#home-titulo h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: #FFFF;
+}
+
+#section-frameworks_linkframeworks {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    gap: 1em;
+}
+
+
+.section-home_frameworksoquesao {
+    max-width: 80%; 
+    justify-content: center;
+}
+
+.section-home_bibliotecaframeworks {
+    max-width: 80%;
+    justify-content: center;
+}
+
+.section-home_frameworksoquesao h2 {
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.section-home_frameworksoquesao p {
+    font-family: var(--fonte-destaque);
+    background-color: #60238F;
+    font-size: 1.4em;
+    color: #FFFF;
+    text-align: center;
+}
+
+.section-home_bibliotecaframeworks h2 {
+    color: #FFFF;
+    font-family: var(--fonte-destaque);
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+
+.section-home_bibliotecaframeworks p {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+footer {
+    justify-content: center;
+}
+
+#todososdireitos {
+    max-width: 100%;
+}
+
+.voltaraotopo {
+    display: none;
+}
+
+
+}
