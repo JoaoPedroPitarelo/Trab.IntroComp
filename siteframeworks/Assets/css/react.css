@@ -25,7 +25,7 @@ footer {
 /* Estilos referente à primeira section da página */
 .section__introducao-react {
     background-color: var(--react-secondary-color);
-    min-height: 80vh;
+    max-height: 70vh;
 
     display: flex;
     flex-direction: row;
@@ -62,7 +62,8 @@ footer {
 
 .virtualdom-image {
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 20px;    
+    padding: 12em 0 0 3rem ;
 }
 
 .react-image {
@@ -75,7 +76,7 @@ footer {
 }
 
 .imagem-react > img{
-    margin: 2em;
+    margin: 1em;
     width: 100%;
     height: 100%;
 }
@@ -88,6 +89,10 @@ footer {
     list-style: circle;
 }
 
+.destaque-lista {
+    font-weight: bolder;
+    font-size: 1.05em;
+}
 
 .lista-react > li {
     margin: 1em;

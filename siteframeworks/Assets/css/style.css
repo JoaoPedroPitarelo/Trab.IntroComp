@@ -65,17 +65,16 @@ nav a:hover {
 }
 
 /* Frameworks, o que são?*/
-#section-home_frameworksoquesao h2 {
+.section-home_frameworksoquesao h2 {
     color: #FFFF;
     font-family: var(--fonte-destaque);
     font-weight: 600;
     padding: 0.3rem 1rem 0.3rem 1rem;
     font-size: 2.5em;
-
 }
 
 
-#section-home_frameworksoquesao p {
+.section-home_frameworksoquesao p {
     font-family: var(--fonte-destaque);
     background-color: #60238F;
     font-size: 1.4em;
@@ -86,14 +85,13 @@ nav a:hover {
     border-radius: 0 0 1rem 1rem;
 }
 
-#section-home_frameworksoquesao {
-    max-width: 50%;
+.section-home_frameworksoquesao {
+    max-width: 75%;
     margin: 1rem 1rem 3rem 3rem;    
 }
 
-
 /*Biblioteca frameworks*/
-#section-home_bibliotecaframeworks h2 {
+.section-home_bibliotecaframeworks h2 {
     color: #FFFF;
     font-family: var(--fonte-destaque);
     font-weight: 600;
@@ -103,7 +101,7 @@ nav a:hover {
     border-radius: 1rem 1rem 0 0;
 }
 
-#section-home_bibliotecaframeworks p {
+.section-home_bibliotecaframeworks p {
     font-family: var(--fonte-destaque);
     background-color: #60238F;
     font-size: 1.4em;
@@ -113,8 +111,8 @@ nav a:hover {
     padding: 1rem;
 }
 
-#section-home_bibliotecaframeworks {
-    max-width: 50%;
+.section-home_bibliotecaframeworks {
+    max-width: 75%;
     margin: 1rem 1rem 3.5rem 3rem;
 }
     

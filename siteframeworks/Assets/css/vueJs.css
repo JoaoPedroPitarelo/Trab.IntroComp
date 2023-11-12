@@ -48,7 +48,7 @@ footer {
 .titulo-principal {
     text-align: center;
 }
-
+/*FOOTER FIM*/
 
 .vue-caracteristica, .vue-apresentacao {
     min-height: 80vh;
@@ -110,19 +110,19 @@ footer {
     padding: 1em 0 0 0;
 }
 
-
 .container-figures {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 5em 10em;
+    min-height: 45rem;
 }
 
 .container-figures > .box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    max-width: 25%;
 }
 
 .container-figures > .box > h3 {
@@ -136,7 +136,8 @@ footer {
 }
 
 .container-figures > .box > p {
-    font-size: 1em;
+    font-size: 1.1em;
+    text-align: center;
 }
 
 .container-figures > .box > .figure {
@@ -148,9 +149,8 @@ footer {
     align-items: center;
 }
 
-
 .figure:hover {
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: 500ms;
 }
 
