@@ -92,9 +92,13 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .header-vue > nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         margin: 1em 0;
      }
 

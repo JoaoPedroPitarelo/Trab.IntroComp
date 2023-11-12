@@ -76,6 +76,10 @@ html, body {
     max-width: 75%;
 }
 
+.timeline-mobile-first  {
+    padding: 2em 0;
+}
+
 .timeline-mobile-first > .box > .versao > h3 {
     color: white;
     margin: 1em 0 1em .5em;
@@ -123,13 +127,13 @@ html, body {
 }
 
 .angular-table tr:nth-child(odd) {
-    background-color: var(--angular-primary-color); /* Cor de fundo para linhas ímpares */
+    background-color: var(--angular-terciary-color); /* Cor de fundo para linhas ímpares */
     color: var(--text-color-default);
     font-weight: 600;
 }
   
 .angular-table tr:nth-child(even) {
-    background-color: var(--angular-terciary-color); /* Cor de fundo para linhas pares */
+    background-color: var(--angular-secondary-color); /* Cor de fundo para linhas pares */
     color: var(--text-color-default);
 }
 
