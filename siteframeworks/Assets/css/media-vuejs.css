@@ -4,10 +4,6 @@
     max-width: 100%;
     text-align: center;
 }
-    
-nav a {
-    display: none;
-}
 
 .voltaraotopo {
     display: none;
@@ -19,21 +15,114 @@ footer {
 }
 
 .container-figures {
-    position: relative;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2em 1em 2em 25em ;
-    min-height: 45rem;
+    align-items: center;
 }
 
 .container-figures > .box > p {
     font-size: 1.1em;
     text-align: center;
-    max-width: 100em    ;
+    max-width: 100%;
+}
+
+.container-figures > .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 70%;
+}
+
+.container-figures > .box > .figure {
+    margin: 2em 0;
+}
+
+.container-figures > .box > .text {
+    margin: 0 2em;
+}
+
+.container-figures > .box > .text > p {
+    margin: 2em 0;
+    text-align: justify;
 }
 
 
+}
 
+@media screen and (max-width: 1400px)  {
+
+    .vue-apresentacao {
+        flex-direction: column;
+        min-height: 0;
+    }
+
+    .vue-apresentacao > .content-text {
+        text-align: center;
+        max-width: 100vw;
+        padding: 2em;
+    }
+
+    .vue-image{
+        margin: 2em 0;
+     }
+}
+
+@media screen and (max-width: 1100px)  {
+
+    .container-figures > .box {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .container-figures > .box > .text > p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 550px)  {
+
+    .container-figures > .box > .text > p {
+       min-width: 100%;
+       margin: 0;
+       padding: 0;
+    }
+
+    .vue-image {
+        margin: 0 auto;
+    }
+
+    .vue-image > img {
+        margin: 0;
+    }
+
+    .container-figures > .box {
+        max-width: 100%;
+    }
+
+    .header-vue {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-vue > .logo > a > h2{
+       font-size: 1em;
+    }
+
+    .header-vue > nav {
+        margin: 1em 0;
+     }
+
+    .header-vue > .logo > h2{
+        font-size: 1em;
+     }
+
+    .header-vue > .logo {
+        font-size: 1em;
+        display: flex;
+        flex-direction: row;
+    }
 
 }
+
+

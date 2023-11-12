@@ -2,6 +2,8 @@
 
 /* Definindo atributos globais */
 html, body{
+    padding: 0;
+    margin: 0;
     background-color:var(--vue-terciary-color);
 }
 
@@ -50,9 +52,6 @@ footer {
 }
 /*FOOTER FIM*/
 
-.vue-caracteristica, .vue-apresentacao {
-    min-height: 80vh;
-}
 
 .vue-apresentacao {
     display: flex;
@@ -125,10 +124,15 @@ footer {
     max-width: 25%;
 }
 
-.container-figures > .box > h3 {
+.container-figures > .box > .text > h3 {
+    margin: 1em 0;
     font-size: 1.5em;
     padding: 1em 0;
     text-align: center;
+}
+
+.container-figures > .box > .text > p {
+    margin: 1em 0;
 }
 
 .context-text-figure {
@@ -137,7 +141,7 @@ footer {
 
 .container-figures > .box > p {
     font-size: 1.1em;
-    text-align: center;
+    text-align: justify;
 }
 
 .container-figures > .box > .figure {
@@ -157,5 +161,16 @@ footer {
 .figure:hover {
     transform: scale(1.03);
     transition: 500ms;
+}
+
+.header-vue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-vue > .logo {
+    display: flex;
+    flex-direction: row;
 }
 
