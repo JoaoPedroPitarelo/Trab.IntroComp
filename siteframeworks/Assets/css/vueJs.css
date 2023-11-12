@@ -146,11 +146,16 @@ footer {
     width: 20em;
     height: 20em;
     border-radius: 10px;
+    justify-content: center;
     align-items: center;
 }
 
+.container-figures > .box > .figure svg {
+   margin: 2.2em 1em 2em 2.15em;
+}
+
 .figure:hover {
-    transform: scale(1.0);
+    transform: scale(1.03);
     transition: 500ms;
 }
 
