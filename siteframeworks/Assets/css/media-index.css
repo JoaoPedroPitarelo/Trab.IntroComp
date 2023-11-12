@@ -76,6 +76,9 @@ nav a {
     gap: 1em;
 }
 
+.section-home {
+    padding: 0;
+}
 
 .section-home_frameworksoquesao {
     max-width: 80%; 

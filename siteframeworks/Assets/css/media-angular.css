@@ -2,31 +2,72 @@
 
 .header__angular {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header__angular > nav {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 1em 0;
+ }
+
+.header__angular > #header-titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
 }
 
-.header__angular h2 {
-    font-family: var(--fonte-destaque);
-    font-weight: 600;
-    font-size: 2rem;
-    color: #FFFF;
+.content-text {
+    max-width: 100vw;
+    margin: 0 2em;
+    padding: 0;
 }
 
-nav a {
+.section__about-angular {
+    padding: 2em 0;
+}
+
+.about-angular__angularjs > img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table-angular {
     display: none;
 }
 
+.timeline-mobile-first {
+    display: block;
+}
+
 .section__angularjs {
-    padding: 0;
+    padding: 2em 0;
     max-width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
 .about-angular__angularjs {
-    padding: 1em 1em 1em 9em;
+    padding: 0 ;
+}
+
+.class-footer > #todososdireitos {
+    text-align: center;
+}
+
+.class-footer > #todososdireitos > h3 {
+    font-size: .5em;
+    min-width: 100%;
 }
 
 .section__about-angular {
@@ -54,4 +95,14 @@ footer {
     max-width: 30%;
 }
 
+}
+
+@media screen and (max-width: 550px)  {
+.header__angular > #header-titulo > h2{
+    font-size: 1em;
+ } 
+
+ .header__angular > #header-titulo > a > h2{
+   font-size: 1em;
+} 
 }

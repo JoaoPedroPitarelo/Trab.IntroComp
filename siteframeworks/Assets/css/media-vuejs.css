@@ -74,7 +74,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 550px)  {
+@media screen and (max-width: 850px)  {
 
     .vue-image {
         margin: 0 auto;
@@ -91,18 +91,11 @@ footer {
     .header-vue {
         display: flex;
         flex-direction: column;
-    }
-
-    .header-vue > .logo > a > h2{
-       font-size: 1em;
+        align-items: center;
     }
 
     .header-vue > nav {
         margin: 1em 0;
-     }
-
-    .header-vue > .logo > h2{
-        font-size: 1em;
      }
 
     .header-vue > .logo {
@@ -117,4 +110,12 @@ footer {
 
 }
 
-
+@media screen and (max-width: 550px)  {
+    .header-vue > .logo > h2{
+        font-size: 1em;
+     } 
+    
+     .header-vue > .logo > a > h2{
+       font-size: 1em;
+    } 
+    }

@@ -35,7 +35,6 @@ footer {
 
 .section__como-usar-react {
     background-color: var(--react-primary-color);
-    min-height: 80vh;
 
     display: flex;
     flex-direction: row-reverse;
