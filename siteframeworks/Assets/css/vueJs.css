@@ -109,6 +109,10 @@ footer {
     padding: 1em 0 0 0;
 }
 
+.context-text-figure {
+    padding: 1em 0;
+}
+
 .container-figures {
     display: flex;
     flex-direction: row;
@@ -127,7 +131,6 @@ footer {
 .container-figures > .box > .text > h3 {
     margin: 1em 0;
     font-size: 1.5em;
-    padding: 1em 0;
     text-align: center;
 }
 

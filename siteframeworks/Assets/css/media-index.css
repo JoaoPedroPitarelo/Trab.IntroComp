@@ -33,6 +33,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 header h2 {
@@ -42,9 +43,20 @@ header h2 {
     color: #FFFF;
 }
 
-nav a {
-    display: none;
-}
+header > #header-titulo > h2{
+    font-size: 1em;
+ } 
+
+ header > #header-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ } 
+
+header > #header-titulo > a > h2{
+   font-size: 1em;
+} 
 
 #home-titulo {
     display: flex;
@@ -76,9 +88,6 @@ nav a {
     gap: 1em;
 }
 
-.section-home {
-    padding: 0;
-}
 
 .section-home_frameworksoquesao {
     max-width: 80%; 
@@ -101,7 +110,6 @@ nav a {
     background-color: #60238F;
     font-size: 1.4em;
     color: #FFFF;
-    text-align: center;
 }
 
 .section-home_bibliotecaframeworks h2 {
@@ -109,13 +117,11 @@ nav a {
     font-family: var(--fonte-destaque);
     font-weight: 600;
     font-size: 2.5em;
-    text-align: center;
     
 }
 
 .section-home_bibliotecaframeworks p {
     font-size: 1.4em;
-    text-align: center;
 }
 
 
