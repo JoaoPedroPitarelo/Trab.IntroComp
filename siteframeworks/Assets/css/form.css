@@ -1,0 +1,113 @@
+/* Estilos referentes a página Angular do site */
+
+/* Definindo atributos globais */
+*{
+    font-family: var(--fonte-destaque);
+}
+
+.formulario-framework {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-framework > h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 1em 0;
+}
+
+.box-formulario {
+    padding: 5em 10em;
+    border-radius: 20px;
+    background-color: #3e165c;
+    color: white;
+}
+
+.radio-group {
+    margin: 2em 0;
+    text-align: center;
+    
+}
+
+.radio-group > h3{
+    margin: 0 0 1em 0;
+}
+
+.input-group {
+    padding: 1.5em;
+    background-color: #60238f;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group > input, .input-group > .box-radio > input {
+    margin: 0 10px;
+    width: 25px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.input-group > label, .input-group > .box-radio > label {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group > button {
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    padding: 2em 1em;
+    background: rgb(15,96,122);
+    background: linear-gradient(90deg, rgba(15,96,122,1) 20%, rgba(195,0,47,1) 50%, rgba(66,185,131,1) 100%);
+    cursor: pointer;
+    
+}
+
+.button-group > button:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.button-group > button:active {
+    transition: 500ms;
+    transform: scale(0.7);
+}
+
+.container-recomendacao {
+    display: none;
+}
+
+.tecnologia-escolhida {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    margin: 2em 0;
+    background-color: #60238f;
+}
+
+.tecnologia-escolhida > .content-text {
+    max-width: 60%;
+}
+
+.tecnologia-escolhida > .content-text > h3 {
+    font-size: 2.5em;
+}
+
+.tecnologia-escolhida > .content-text > p {
+    font-size: 2em;
+    text-align: justify;
+}

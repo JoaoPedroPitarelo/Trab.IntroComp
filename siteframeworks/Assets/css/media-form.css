@@ -1,0 +1,62 @@
+@media screen and (max-width: 850px) {
+
+#cabecalho> nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0;
+    }
+
+#cabecalho > #header-titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+    
+.tecnologia-escolhida {
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-framework > h1 {
+    text-align: center;
+}    
+
+.box-formulario {
+    padding: 2em 0;
+}
+
+.tecnologia-escolhida {
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.tecnologia-escolhida > .content-text {
+    max-width: 90%;
+}
+
+.input-group > .box-radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.radio-group {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.radio-group-spa > .input-group > .box-radio {
+    flex-direction: column;
+}
+
+.input-group {
+    min-width: 90vw;
+}
+
+}

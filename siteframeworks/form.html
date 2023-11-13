@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Aba da página -->
+        <title>Web FrameWorks | Formulario</title> <!-- Título da página -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  <!-- Favicon da página -->
+        
+        <!-- CSS Links -->
+        <link rel="stylesheet" href="./Assets/css/vars.css">  <!-- Variáveis CSS -->
+        <link rel="stylesheet" href="./Assets/css/style.css">
+        <link rel="stylesheet" href="./Assets/css/form.css">
+        <link rel="stylesheet" href="./Assets/css/media-form.css">
+       
+    </head>
+<body>
+
+    <header id="cabecalho">
+
+        <div id="header-titulo">
+            <h2>FrameWorks Web</h2>
+            <svg id="svg-logo" xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="20 5 50 60" fill="none">
+                <line x1="16.5" y1="0" x2="16.5" y2="59" stroke="black" stroke-width="6"/>
+                <line x1="1.5" y1="16.5" x2="45" y2="16.5" stroke="white" stroke-width="6"/>
+                <line x1="41.5" y1="17" x2="41.5" y2="69" stroke="white" stroke-width="6"/>
+                <line x1="16" y1="55.5" x2="58" y2="55.5" stroke="black" stroke-width="6"/>
+            </svg>
+        </div>
+        
+        <nav>
+            <a href="index.html" class="link-proximo" id="link-proximo">VOLTAR AO INÍCIO</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="formulario-framework">
+
+        <h1>Responda algumas perguntas que escolhemos o framework/biblioteca ideal para você!</h1>
+
+        <div class="box-formulario">
+            <form action="" id="formTecnologia">
+
+                <div class="radio-group">
+                    <h3>Qual seu interesse em usar Virtual DOM?</h3>
+
+                    <div class="input-group">
+                        <input type="radio" name="dom" id="dom-baixo" value=0>
+                        <label for="dom-baixo">Baixo</label>
+                        <input type="radio" name="dom" id="dom-medio" value=2>
+                        <label for="dom-medio">Médio</label>
+                        <input type="radio" name="dom" id="dom-alto"  value=3>
+                        <label for="dom-alto">Alto</label>
+                    </div>
+                </div>
+
+                <div class="radio-group">
+                    <h3>Qual seu interesse em estudar uma tecnologia com uma comunidade bem ativa</h3>
+
+                    <div class="input-group">
+                        <input type="radio" name="comunidade" id="comunidade-baixo" value=1>
+                        <label for="comunidade-baixo">Baixo</label>
+                        <input type="radio" name="comunidade" id="comunidade-medio" value=2>
+                        <label for="comunidade-medio">Médio</label>
+                        <input type="radio" name="comunidade" id="comunidade-alto"  value=3>
+                        <label for="comunidade-alto">Alto</label>
+                    </div>
+                </div>
+
+                <div class="radio-group radio-group-spa">
+                    <h3>Conhece ou gostaria de desenvolver SPAs</h3>
+
+                    <div class="input-group">
+                        <div class="box-radio">
+                            <input type="radio" name="spa" id="spa" value=3>
+                            <label for="spa-baixo">Não conheço e não gostaria</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="spa" id="spa" value=2>
+                            <label for="spa-medio">Não conheço mas gostaria </label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="spa" id="spa"  value=1>
+                            <label for="spa-alto">Conheço e gostaria</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="radio-group">
+                    <h3>Desenvolver em ambiente Javascript ou Typescript</h3>
+
+                    <div class="input-group">
+                        <input type="radio" name="jsts" id="jsts-baixo" value=1>
+                        <label for="jsts-baixo">Typescript</label>
+                        <input type="radio" name="jsts" id="jsts-medio" value=2>
+                        <label for="jsts-medio">Javascript</label>
+                    </div>
+                </div>
+
+                <div class="radio-group">
+                    <h3>Qual o grau de importancia em fazer requisições HTTP de forma rápida e poderosa?</h3>
+
+                    <div class="input-group">
+                        <div class="box-radio">
+                            <input type="radio" name="http" id="http-baixo" value=3>
+                            <label for="http-baixo">Baixo</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="http" id="http-medio" value=2>
+                            <label for="http-medio">Médio</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="http" id="http-medio" value=2>
+                            <label for="http-medio">Alto</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="http" id="http-medio" value=1>
+                            <label for="http-medio">Muito Alto</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="radio-group">
+                    <h3>Interesse em flexibilidade</h3>
+
+                    <div class="input-group">
+                        <div class="box-radio">
+                            <input type="radio" name="flex" id="flex-baixo" value=0>
+                            <label for="flex-baixo">Baixo</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="flex" id="flex-medio" value=3>
+                            <label for="flex-medio">Médio</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="flex" id="flex-medio" value=1>
+                            <label for="flex-medio">Alto</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="flex" id="flex-medio" value=2>
+                            <label for="flex-medio">Muito Alto</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="radio-group">
+                    <h3>Qual a curva de aprendizagem ideal para você?</h3>
+
+                    <div class="input-group">
+                        <input type="radio" name="aprendizagem" id="aprendizagem-baixo" value=2>
+                        <label for="aprendizagem-baixo">Baixo</label>
+                        <input type="radio" name="aprendizagem" id="aprendizagem-medio" value=3>
+                        <label for="aprendizagem-medio">Médio</label>
+                        <input type="radio" name="aprendizagem" id="aprendizagem-medio" value=1>
+                        <label for="aprendizagem-medio">Alto</label>
+                    </div>
+                </div>
+                
+                <div class="button-group">
+                    <button type="button" id="btn-tecnologia-ideal">Descubra a tecnologia Front-end ideal para você
+                    </button>
+                </div>
+            </form>
+
+            <div class="container-recomendacao" id="box-rec">
+                <div class="tecnologia-escolhida">
+                    <div class="content-text">
+                        <h3 id="titulo-tec">A tecnologia ideal para você é o Angular !</h3><br>
+                        <p id="text-tec">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore atque earum impedit. Dolorum, doloribus tenetur esse totam at perferendis modi in ex dicta optio aut, eius accusamus consequuntur corrupti adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veniam magni iusto impedit. Necessitatibus quisquam cum explicabo atque molestias? Facilis ducimus odit quibusdam itaque commodi ratione harum. Perferendis, voluptatibus quod.</p>
+    
+                        <h2>
+                            <a href="#" id="link-tec" target="_blank">
+                            Clique para ser redirecionado à documentação oficial
+                            </a>    
+                        </h2>
+    
+                    </div>
+    
+                    <img src="" alt="Tecnologia recomendada" id="img-tec">
+                </div>
+            </div>
+            </div>
+
+            
+        </section>
+
+    
+    </main>
+    
+
+    <script>
+
+        const linkAngular = "./Assets/img/angular.png";
+        const linkReact   = "./Assets/img/reactjs.png";
+        const linkVue     = "./Assets/img/vuejs.png";
+
+        let descricao;
+        let imagem;
+        let titulo;
+        let linkDoc;
+
+        const escolherTecnologia = document.getElementById("btn-tecnologia-ideal");
+
+        escolherTecnologia.addEventListener("click", event => {
+
+            let formularioId = document.querySelector('#formTecnologia');
+            let elementosFormulario = formularioId.elements;
+
+
+            let somaFormulario = parseInt(formularioId.dom.value) + parseInt(formularioId.comunidade.value) +  parseInt(formularioId.spa.value) + parseInt(formularioId.jsts.value) + parseInt(formularioId.http.value) + parseInt(formularioId.flex.value) + parseInt(formularioId.aprendizagem.value);
+    
+            console.log(somaFormulario);
+            
+            if(somaFormulario > 14 && somaFormulario) {
+                descricao = "Com uma comunidade ativa e com uma forte presença do Virtual DOM, recomendamos (caso você já possua um conhecimento sólido em HTML, CSS e JS) que embarque na reatividade da biblioteca JavaScript mais famosa do mercado atualmente, o React. Clique no link abaixo para ser redirecionado para a documentação oficial do React";
+                imagem    = linkReact;
+                titulo    = "A tecnologia ideal para você é o React!";
+                linkDoc   = "https://pt-br.react.dev/learn"
+            }
+
+            if(somaFormulario <= 14 && somaFormulario > 10) {
+                descricao = "Conhecido pela sua flexibilidade e curva de aprendizagem suave, recomendamos (caso você possua um sólido conhecimento em HTML, CSS e JS) que inicie sua jornada nos frameworks Front-end pelo VueJS. Clique no link abaixo para ser redirecionado para a documentação oficial do VueJS";
+                imagem  = linkVue;
+                titulo  = "A tecnologia ideal para você é o VueJS";
+                linkDoc = "https://vuejsbr-docs-next.netlify.app/guide/introduction.html";
+            }
+
+            if(somaFormulario <= 10 ) {
+                descricao = "Com um ótimo e bem estruturado ambiente, e com foco em injeção de dependência em SPAs, recomendamos que você inicie seus estudos de frameworks Front-end (caso possua um conhecimento sólido em HTML, CSS e TS) pelo Angular. Clique no link abaixo para ser redirecionado para a documentação oficial do Angular";
+                imagem  = linkAngular;
+                titulo  = "A tecnologia ideal para você é o Angular";
+                linkDoc = "https://angular.io/docs";
+            }
+
+            if(descricao === undefined) {
+                alert("Preencha o formuário corretamente");
+                return;
+            }
+
+            document.getElementById("titulo-tec").innerHTML = titulo;
+            document.getElementById("text-tec").innerHTML   = descricao;
+            document.getElementById("link-tec").setAttribute("href", linkDoc);
+            document.getElementById("img-tec").setAttribute("src", imagem);
+
+            document.getElementById("box-rec").style.display = "block";
+
+
+        })
+    </script>
+</body>
+</html>
