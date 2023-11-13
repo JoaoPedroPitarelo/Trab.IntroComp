@@ -1,11 +1,18 @@
 @media screen and (max-width: 850px) {
 
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 #cabecalho> nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 1em 0;
-    }
+}
 
 #cabecalho > #header-titulo {
     display: flex;
@@ -28,18 +35,15 @@
 }
 
 .tecnologia-escolhida {
-    padding: 1em;
+    padding: 0;
     margin: 2em 0;
-}
-
-.tecnologia-escolhida > .content-text {
-    max-width: 90%;
 }
 
 .input-group > .box-radio {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .radio-group {
@@ -47,16 +51,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     
-}
-
-.radio-group-spa > .input-group > .box-radio {
-    flex-direction: column;
 }
 
 .input-group {
     min-width: 90vw;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.content-text {
+    min-width: 90%;
+    margin: 2em 0;
+}
+
+#img-tec {
+    padding: 4em 0 0 0;
 }
 
 }

@@ -35,7 +35,7 @@
 }
 
 .input-group {
-    padding: 1.5em;
+    padding: 1.5em 0;
     background-color: #60238f;
     border-radius: 20px;
     display: flex;
@@ -110,4 +110,8 @@
 .tecnologia-escolhida > .content-text > p {
     font-size: 2em;
     text-align: justify;
+}
+
+#link-tec {
+    color: rgb(112, 112, 224)
 }

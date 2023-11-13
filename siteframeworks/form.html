@@ -47,12 +47,20 @@
                     <h3>Qual seu interesse em usar Virtual DOM?</h3>
 
                     <div class="input-group">
-                        <input type="radio" name="dom" id="dom-baixo" value=0>
-                        <label for="dom-baixo">Baixo</label>
-                        <input type="radio" name="dom" id="dom-medio" value=2>
-                        <label for="dom-medio">Médio</label>
-                        <input type="radio" name="dom" id="dom-alto"  value=3>
-                        <label for="dom-alto">Alto</label>
+                        <div class="box-radio">
+                            <input type="radio" name="dom" id="dom-baixo" value=0>
+                            <label for="dom-baixo">Baixo</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="dom" id="dom-medio" value=2>
+                            <label for="dom-medio">Médio</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="dom" id="dom-alto"  value=3>
+                            <label for="dom-alto">Alto</label>
+                        </div>
                     </div>
                 </div>
 
@@ -60,16 +68,24 @@
                     <h3>Qual seu interesse em estudar uma tecnologia com uma comunidade bem ativa</h3>
 
                     <div class="input-group">
-                        <input type="radio" name="comunidade" id="comunidade-baixo" value=1>
-                        <label for="comunidade-baixo">Baixo</label>
-                        <input type="radio" name="comunidade" id="comunidade-medio" value=2>
-                        <label for="comunidade-medio">Médio</label>
-                        <input type="radio" name="comunidade" id="comunidade-alto"  value=3>
-                        <label for="comunidade-alto">Alto</label>
+                        <div class="box-radio">
+                            <input type="radio" name="comunidade" id="comunidade-baixo" value=1>
+                            <label for="comunidade-baixo">Baixo</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="comunidade" id="comunidade-medio" value=2>
+                            <label for="comunidade-medio">Médio</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="comunidade" id="comunidade-alto"  value=3>
+                            <label for="comunidade-alto">Alto</label>
+                        </div>
                     </div>
                 </div>
 
-                <div class="radio-group radio-group-spa">
+                <div class="radio-group">
                     <h3>Conhece ou gostaria de desenvolver SPAs</h3>
 
                     <div class="input-group">
@@ -94,10 +110,15 @@
                     <h3>Desenvolver em ambiente Javascript ou Typescript</h3>
 
                     <div class="input-group">
-                        <input type="radio" name="jsts" id="jsts-baixo" value=1>
-                        <label for="jsts-baixo">Typescript</label>
-                        <input type="radio" name="jsts" id="jsts-medio" value=2>
-                        <label for="jsts-medio">Javascript</label>
+                        <div class="box-radio">
+                            <input type="radio" name="jsts" id="jsts-baixo" value=1>
+                            <label for="jsts-baixo">Typescript</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="jsts" id="jsts-medio" value=2>
+                            <label for="jsts-medio">Javascript</label>
+                        </div>
                     </div>
                 </div>
 
@@ -157,12 +178,21 @@
                     <h3>Qual a curva de aprendizagem ideal para você?</h3>
 
                     <div class="input-group">
-                        <input type="radio" name="aprendizagem" id="aprendizagem-baixo" value=2>
-                        <label for="aprendizagem-baixo">Baixo</label>
-                        <input type="radio" name="aprendizagem" id="aprendizagem-medio" value=3>
-                        <label for="aprendizagem-medio">Médio</label>
-                        <input type="radio" name="aprendizagem" id="aprendizagem-medio" value=1>
-                        <label for="aprendizagem-medio">Alto</label>
+
+                        <div class="box-radio">
+                            <input type="radio" name="aprendizagem" id="aprendizagem-baixo" value=2>
+                            <label for="aprendizagem-baixo">Baixo</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="aprendizagem" id="aprendizagem-medio" value=3>
+                            <label for="aprendizagem-medio">Médio</label>
+                        </div>
+
+                        <div class="box-radio">
+                            <input type="radio" name="aprendizagem" id="aprendizagem-medio" value=1>
+                            <label for="aprendizagem-medio">Alto</label>
+                        </div>
                     </div>
                 </div>
                 
@@ -176,7 +206,7 @@
                 <div class="tecnologia-escolhida">
                     <div class="content-text">
                         <h3 id="titulo-tec">A tecnologia ideal para você é o Angular !</h3><br>
-                        <p id="text-tec">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore atque earum impedit. Dolorum, doloribus tenetur esse totam at perferendis modi in ex dicta optio aut, eius accusamus consequuntur corrupti adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veniam magni iusto impedit. Necessitatibus quisquam cum explicabo atque molestias? Facilis ducimus odit quibusdam itaque commodi ratione harum. Perferendis, voluptatibus quod.</p>
+                        <p id="text-tec">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore atque earum impedit. Dolorum, doloribus tenetur esse totam at perferendis modi in ex dicta optio aut, eius accusamus consequuntur corrupti adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veniam magni iusto impedit. Necessitatibus quisquam cum explicabo atque molestias? Facilis ducimus odit quibusdam itaque commodi ratione harum. Perferendis, voluptatibus quod.</p><br>
     
                         <h2>
                             <a href="#" id="link-tec" target="_blank">
@@ -189,14 +219,11 @@
                     <img src="" alt="Tecnologia recomendada" id="img-tec">
                 </div>
             </div>
-            </div>
+        </div>
 
-            
         </section>
 
-    
     </main>
-    
 
     <script>
 
