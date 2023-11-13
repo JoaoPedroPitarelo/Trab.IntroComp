@@ -6,8 +6,11 @@
     --fonte-corpo: 'Ubuntu Condensed', sans-serif;
     --fonte-destaque: 'Ubuntu', sans-serif;
 
-
     --text-color-default: #FFFFFF;
+    --index-primary-color: #60238F;
+    --index-secondary-color: #3E165C;
+    --index-terciary-color: #24063C;
+
     --react-primary-color: #0f607a;
     --react-secondary-color: #23272F;
     --react-terciary-color: #1B1D24;

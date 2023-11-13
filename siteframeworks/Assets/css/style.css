@@ -1,6 +1,6 @@
 body {
     font-size: 100%;
-    background: #60238F;
+    background: var(--index-primary-color);
     background-size: 100%;
 }
 /* Cabecalho */
@@ -8,7 +8,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #3E165C;
+    background-color: var(--index-secondary-color);
     padding: 0.6rem 2.2rem 0.5rem 2.2rem;
 }
 
@@ -22,19 +22,19 @@ header h2 {
     font-family: var(--fonte-destaque);
     font-weight: 600;
     font-size: 1.5rem;
-    color: #FFFF;
+    color: var(--text-color-default);
 }
 
 nav a {
     font-family: var(--fonte-destaque);
     font-size: 1.5rem;
-    color: #FFFF;
+    color: var(--text-color-default);
     padding: 0.5rem;
 }
 
 nav a:hover {
     cursor: pointer;
-    color: #24063C;
+    color: var(--index-primary-color);
     transition: 0.2s;
 }
 
@@ -46,7 +46,7 @@ nav a:hover {
     align-items: center;
     gap: 1.5rem;
     padding: 2rem 2rem 2rem 2rem;
-    background-color: #3E165C;
+    background-color: var(--index-primary-color);
 
     min-height: 25vh;
 }
@@ -55,7 +55,7 @@ nav a:hover {
     font-family: var(--fonte-destaque);
     font-size: 3.5rem;
     font-weight: 100;
-    color: #FFFF;
+    color: var(--text-color-default);
 }
 
 /* Conteudo home */
@@ -67,7 +67,7 @@ nav a:hover {
 
 /* Frameworks, o que são?*/
 .section-home_frameworksoquesao h2 {
-    color: #FFFF;
+    color: var(--text-color-default);
     font-family: var(--fonte-destaque);
     font-weight: 600;
     padding: 0.3rem 1rem 0.3rem 1rem;
@@ -76,9 +76,9 @@ nav a:hover {
 
 .section-home_frameworksoquesao p {
     font-family: var(--fonte-destaque);
-    background-color: #60238F;
+    background-color: var(--index-primary-color);
     font-size: 1.4em;
-    color: #FFFF;
+    color: var(--text-color-default);
     text-align: justify;
 
     padding: 1rem 1rem 1rem 1rem;
@@ -93,7 +93,7 @@ nav a:hover {
 
 /*Biblioteca frameworks*/
 .section-home_bibliotecaframeworks h2 {
-    color: #FFFF;
+    color: var(--text-color-default);
     font-family: var(--fonte-destaque);
     font-weight: 600;
     font-size: 2.5em;
@@ -104,9 +104,9 @@ nav a:hover {
 
 .section-home_bibliotecaframeworks p {
     font-family: var(--fonte-destaque);
-    background-color: #60238F;
+    background-color: var(--index-primary-color);
     font-size: 1.4em;
-    color: #FFFF;
+    color: var(--text-color-default);
     text-align: justify;
 
     padding: 1rem;
@@ -119,15 +119,15 @@ nav a:hover {
     
 /* Conteudo frameworks*/
 #section-frameworks_cabecalho {
-    background-color: #60238F;
-    border-bottom: 3px inset #1d0a2c;
+    background-color: var(--index-primary-color);
+    border-bottom: 3px inset var(--index-secondary-color);
     border-radius: 1rem 1rem 0 0;
 
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 #section-frameworks_cabecalho h3 {
-    color: #FFFF;
+    color: var(--text-color-default);
     font-family: var(--fonte-destaque);
     font-size: 1.7rem;
     text-align: center;
@@ -135,7 +135,7 @@ nav a:hover {
 
 
 #section-frameworks_linkframeworks {
-    background-color: #24063C;
+    background-color: var(--index-terciary-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -151,7 +151,7 @@ nav a:hover {
 
 /* React.JS */
 #reactjs_link {
-    background-color: #007B74;
+    background-color: var(--react-secondary-color);
     border-radius: 20%;
 }
 
@@ -177,12 +177,12 @@ nav a:hover {
     font-size: 2.5rem;
     font-weight: 600;
     font-family: var(--fonte-destaque);
-    color: #007B74;
+    color: var(--react-primary-color);
 }
 
 /* Angular */
 #angular_link {
-    background-color: #CA7D7D;
+    background-color: var(--angular-secondary-color);
     border-radius: 20%;
 }
 
@@ -207,12 +207,12 @@ nav a:hover {
     font-size: 2.5rem;
     font-weight: 600;
     font-family: var(--fonte-destaque);
-    color: #D41B1B;
+    color: var(--angular-primary-color);
 }
 
 /* Vue.JS */
 #section-frameworks_linkframeworks_vuejs {
-    background-color: #9FDCAD;
+    background-color: var(--vue-secondary-color);
     border-radius: 20%;
 }
 
@@ -238,12 +238,12 @@ nav a:hover {
     font-size: 2.5rem;
     font-weight: 600;
     font-family: var(--fonte-destaque);
-    color: #007B74;
+    color: var(--vue-primary-color);
 }
 
 /* Rodapé */
 footer {
-    background-color: #3E165C;
+    background-color: var(--index-secondary-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -257,7 +257,7 @@ footer {
 
     font-size: 1.5rem;
     font-family: var(--fonte-destaque);
-    color: #FFFF;
+    color: var(--text-color-default);
 }
 
 #todososdireitos h3 {
@@ -265,24 +265,24 @@ footer {
 }
 
 #todososdireitos a{
-    color: #FFFF;
+    color: var(--text-color-default);
 }
 
 #todososdireitos a:hover{
-    color: blue;
+    color: var(--index-primary-color);
     transition: 0.2s;
 }
 
 /* Button */
 .voltaraotopo {
-    background-color: #24063C;
+    background-color: var(--index-terciary-color);
     border: none;
     border-radius: 2rem 2rem 2rem 2rem;
     min-width: 15%;
     text-align: center;
     padding: 1rem;
 
-    color: #FFFF;
+    color: var(--text-color-default);
     font-family: var(--fonte-destaque);
     font-size: 2rem;
     font-weight: 600;

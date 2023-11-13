@@ -16,6 +16,16 @@ main {
     background-color: var(--vue-primary-color);
 }
 
+nav a:hover {
+    cursor: pointer;
+    color: var(--vue-terciary-color);
+    transition: 0.2s;
+}
+
+#todososdireitos a:hover{
+    color: var(--vue-terciary-color);
+    transition: 0.2s;
+}
 
 footer {
     display: flex;
@@ -27,14 +37,14 @@ footer {
 }
 
 .voltaraotopo {
-    background-color: #34495e;
+    background-color: var(--vue-terciary-color);
     border: none;
     border-radius: 2rem 2rem 2rem 2rem;
     min-width: 15%;
     text-align: center;
     padding: 1rem;
 
-    color: #FFFF;
+    color: var(--text-color-default);
     font-family: var(--fonte-destaque);
     font-size: 2rem;
     font-weight: 600;

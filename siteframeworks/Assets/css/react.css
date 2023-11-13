@@ -6,7 +6,7 @@
 }
 
 html, body {
-    background-color: white;
+    background-color: var(--text-color-default);
 }
 
 
@@ -98,15 +98,20 @@ footer {
 }
 
 /* BUTTON FOOTER */
+#todososdireitos a:hover{
+    color: var(--react-primary-color);
+    transition: 0.2s;
+}
+
 .voltaraotopo {
-    background-color: #23272F;
+    background-color: var(--react-secondary-color);
     border: none;
     border-radius: 2rem 2rem 2rem 2rem;
     min-width: 15%;
     text-align: center;
     padding: 1rem;
 
-    color: #FFFF;
+    color: var(--text-color-default);
     font-family: var(--fonte-destaque);
     font-size: 2rem;
     font-weight: 600;
